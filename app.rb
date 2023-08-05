@@ -3,7 +3,7 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader'
 get '/' do
-	erb "BarnerShosssp"			
+	erb "BarnerShop"			
 end
 get '/admin' do
   erb :admin
