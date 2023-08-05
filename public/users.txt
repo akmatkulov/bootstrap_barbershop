@@ -15,3 +15,4 @@ User: Sovetbek, Barber: Gus Fring, Phone: 0500019620, Date and Time: 23.09.2023
 User: Asan, Barber: Jessie Pinkman, Phone: 05232 23213, Date and Time: 22.08.2023
 User: Asan, Barber: Jessie Pinkman, Phone: 05232 23213, Date and Time: 22.08.2023
 User: Asan, Barber: Jessie Pinkman, Phone: 05232 23213, Date and Time: 22.08.2023
+User: Sovetbek, Barber: Jessie Pinkman, Phone: 0500019620, Date and Time: 23.09.2023 Color: #e1e1e1

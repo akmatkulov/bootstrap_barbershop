@@ -4,7 +4,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-	erb "BarnerShop"			
+	erb :welcome		
 end
 get '/admin' do
   erb :admin
@@ -38,9 +38,10 @@ post '/visit' do
   @phone_number = params['phone_number']
   @date_time = params['date_time']
   @barber = params['barber']
+  @color = params['color']
 
   f = File.open 'public/users.txt', 'a'
-  f.write "User: #{@name}, Barber: #{@barber}, Phone: #{@phone_number}, Date and Time: #{@date_time}\n"
+  f.write "User: #{@name}, Barber: #{@barber}, Phone: #{@phone_number}, Date and Time: #{@date_time} Color: #{@color}\n"
   f.close
 
   erb :visit
